@@ -9,8 +9,12 @@
     padding-top: 8px;
     padding-bottom: 8px;
     cursor: pointer;
+    transition: all 0.15s;
   }
-
+  
+  .bn:active{
+    opacity: 0.3;
+  }
   .num {
     color: purple;
     border: none;
@@ -62,8 +66,7 @@
     border: none;
     transition: 
       margin-top 0.15s,
-      margin-left 0.15s,
-      ;
+      margin-left 0.15s;
     cursor: pointer;
   }
 
@@ -96,26 +99,31 @@
 
 </style>
 
-<p>4h</p>
-<button class="bn" style="margin-right: 6px;">Back</button>
-<button class="num">1</button>
-<button class="num">2</button>
-<button class="num">3</button>
-<button class="num">4</button>
-<button class="num">5</button>
-<button class="bn" style="margin-left: 6px;">Next</button>
-<hr>
-
-<p>4i</p>
-<button class="i4">Stretch</button>
-<hr>
-
-<p>4j</p>
-<button class="j4">Shadow</button>
-<hr>
-
-<p>4k</p>
-<button class="k4">One</button>
-<button class="k4">Two</button>
-<button class="k4">Three</button>
-<hr>
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>4h</p>
+    <button class="bn" style="margin-right: 6px;">Back</button>
+    <button class="num">1</button>
+    <button class="num">2</button>
+    <button class="num">3</button>
+    <button class="num">4</button>
+    <button class="num">5</button>
+    <button class="bn" style="margin-left: 6px;">Next</button>
+    <hr>
+    
+    <p>4i</p>
+    <button class="i4">Stretch</button>
+    <hr>
+    
+    <p>4j</p>
+    <button class="j4">Shadow</button>
+    <hr>
+    
+    <p>4k</p>
+    <button class="k4">One</button>
+    <button class="k4">Two</button>
+    <button class="k4">Three</button>
+    <hr>
+  </body>
+</html>
