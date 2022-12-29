@@ -1,0 +1,66 @@
+.friend-suggest {
+    display: inline-block;;
+    width: 250px;
+    /* border: 0px solid rgb(0, 0, 0); */
+    margin: 6px 6px 6px 6px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.35);
+    vertical-align: top;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;;
+    margin: 0 0 0 0;
+}
+
+.info {
+    margin: 6px 8px 6px 8px;
+}
+
+.name {
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mutual {
+    margin-bottom: 6px;
+}
+
+.mutual-pic {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+
+.count-mutual {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 4px;
+    color: gray ;
+}
+
+.add-bt {
+    font-size: 16px;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.add-bt:hover {
+    opacity: 0.6;
+}
+
