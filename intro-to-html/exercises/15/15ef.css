@@ -1,0 +1,36 @@
+.e15 {
+    width: 50%;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+}
+
+.sale {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+}
+
+.bt-ctn {
+    padding: 8px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
