@@ -1,0 +1,45 @@
+.left-tab{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  position: fixed;
+  top: 56px;
+  left:0;
+  bottom: 0;
+  width: 225px;
+  border: 1px solid #000;
+
+
+  /* overflow-x: hidden; */
+  overflow: auto;
+  /* height: auto;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin; */
+
+}
+
+
+
+.tab-container {
+  width: 205px;
+  height: 100%;
+  display: grid;
+  /* align-items: center; */
+  grid-template-columns: 48px 1fr;
+  align-items: center;
+  color: white;
+  row-gap: 15px;
+  /* column-gap:  ; */
+}
+
+.tab-container button {
+  margin:0;
+  width: 72px;
+  height: 40px;
+  border: none;
+  background: none;
+  color: white;
+  /* cursor: pointer; */
+}
