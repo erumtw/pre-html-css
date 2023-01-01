@@ -2,9 +2,26 @@ body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   margin-left: 15px;
   background-color: rgb(18, 18, 18);
-  margin-bottom: 3000px;
-  padding: 56px 72px;
+  padding: 130px 20px 20px 262px;
+  height: 100%;
 }
 
+img {
+  margin: 0;
+}
+
+button { 
+  margin: none;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 0.1px solid gray;
+  opacity: 0.3;
+  padding: 0 -2px;
+  margin: 12px 0;
+
+}
 
 
