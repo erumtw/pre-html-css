@@ -95,11 +95,11 @@
 .about {
   color: rgb(171, 171, 171);
   padding: 0px 12px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .about a {
-  font-weight: 700;
+  font-weight: 500;
   margin-right: 6px;
   color: rgb(171, 171, 171);
   text-decoration: none;

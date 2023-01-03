@@ -2,11 +2,12 @@
 <html>
   <head>
     <title>Cloned-Youtube</title>
+    <link rel="icon" type="image/x-icon" href="imgs/yt-icon.png" />
     <link rel="stylesheet" href="style/header.css" />
     <link rel="stylesheet" href="style/general.css" />
     <link rel="stylesheet" href="style/left-tab.css" />
     <link rel="stylesheet" href="style/category-header.css" />
-    <link rel="stylesheet" href="style/video-pre.css" />
+    <link rel="stylesheet" href="style/videos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +16,6 @@
     />
   </head>
   <body>
-    
     <div class="header-container">
       <div class="left-section">
         <div class="menu">
@@ -53,7 +53,9 @@
     </div>
 
     <div class="category-container">
-      <div style="background-color: rgba(255, 255, 255, 0.9); color: black">ทั้งหมด</div>
+      <div style="background-color: rgba(255, 255, 255, 0.9); color: black">
+        ทั้งหมด
+      </div>
       <div>สด</div>
       <div>เพลง</div>
       <div>เกม</div>
@@ -70,7 +72,7 @@
 
     <div class="left-tab">
       <div class="tab-container">
-        <div class="tab" style="background-color: rgba(255, 255, 255, 0.08);">
+        <div class="tab" style="background-color: rgba(255, 255, 255, 0.08)">
           <img src="/imgs/left-tabs/home.svg" />
           <div>หน้าแรก</div>
         </div>
@@ -94,10 +96,14 @@
           <div>YouTube Music</div>
         </div>
         <hr />
+      </div>
 
       <div class="tab-container">
         <div class="tab">
-          <img style="width: 20px; height: 20px" src="/imgs/left-tabs/librarypng.png"  />
+          <img
+            style="width: 20px; height: 20px"
+            src="/imgs/left-tabs/librarypng.png"
+          />
           <div>คลังวิดีโอ</div>
         </div>
         <div class="tab">
@@ -108,7 +114,10 @@
           <div>ประวัติการติดตาม</div>
         </div>
         <div class="tab">
-          <img src="/imgs/left-tabs/your-video.png" style="width: 20px; height: 20px" />
+          <img
+            src="/imgs/left-tabs/your-video.png"
+            style="width: 20px; height: 20px"
+          />
           <div>วิดีโอของคุณ</div>
         </div>
         <div class="tab">
@@ -120,29 +129,32 @@
           <div>การดาวน์โหลด</div>
         </div>
         <div class="tab">
-          <img style="width: 22px; height: 20px" src="/imgs/left-tabs/liked.png" />
+          <img
+            style="width: 22px; height: 20px"
+            src="/imgs/left-tabs/liked.png"
+          />
           <div>วิดีโอที่ชอบ</div>
         </div>
         <hr />
+      </div>
 
-        <!-- *tab การติดตาม  -->
+      <!-- *tab การติดตาม  -->
       <div class="tab-container">
         <div class="tab-header">การติดตาม</div>
         <div class="tab">
-          <img src="/imgs/left-tabs/unnamed.jpg" class="chanel-pic"/>
+          <img src="/imgs/left-tabs/unnamed.jpg" class="chanel-pic" />
           <div>HEARTROCKER</div>
         </div>
-          <div class="tab">
-            <img src="/imgs/left-tabs/unnamed (1).jpg" class="chanel-pic"/>
-            <div>คืนพุธ มุดผ้าห่ม [ Official ]</div>
+        <div class="tab">
+          <img src="/imgs/left-tabs/unnamed (1).jpg" class="chanel-pic" />
+          <div>คืนพุธ มุดผ้าห่ม [ Official ]</div>
         </div>
+        <div class="tab">
+          <img src="/imgs/left-tabs/channels4_profile.jpg" class="chanel-pic" />
+          <div>Subdar7</div>
         </div>
-          <div class="tab">
-            <img src="/imgs/left-tabs/channels4_profile.jpg" class="chanel-pic"/>
-            <div>Subdar7</div>
-        </div>
+        <hr />
       </div>
-      <hr/>
 
       <!-- *tab สำรวจ -->
       <div class="tab-container">
@@ -167,11 +179,11 @@
           <img src="/imgs/left-tabs/sport.png" />
           <div>กีฬา</div>
         </div>
+        <hr />
       </div>
-      <hr />
 
       <!-- *tab เพิ่มเติมจาก Youtube -->
-      <div class="tab-container"> 
+      <div class="tab-container">
         <div class="tab-header">เพิ่มเติมจาก Youtube</div>
         <div class="tab">
           <img style="filter: none" src="/imgs/left-tabs/creator-youtube.png" />
@@ -189,11 +201,11 @@
           <img style="filter: none" src="/imgs/left-tabs/yt-tv.png" />
           <div>Youtube TV</div>
         </div>
+        <hr />
       </div>
-      <hr />
 
       <!-- *tab การตั้งค่า -->
-      <div class="tab-container"> 
+      <div class="tab-container">
         <div class="tab">
           <img src="/imgs/left-tabs/setting.png" />
           <div>การตั้งค่า</div>
@@ -210,32 +222,151 @@
           <img src="/imgs/left-tabs/feedback.png" />
           <div>ส่งความคิดเห็น</div>
         </div>
+        <hr />
       </div>
-      <hr />
-      
+
       <!-- *2023 google LLC -->
       <div class="tab-container">
         <p class="about">
-          <a href="https://about.youtube/" >เกี่ยวกับ</a>  
-          <a href="https://blog.youtube/">สื่อ</a> 
-          <a href="https://www.youtube.com/howyoutubeworks/policies/copyright/">ลิขสิทธิ์</a> 
+          <a href="https://about.youtube/">เกี่ยวกับ</a>
+          <a href="https://blog.youtube/">สื่อ</a>
+          <a href="https://www.youtube.com/howyoutubeworks/policies/copyright/"
+            >ลิขสิทธิ์</a
+          >
           <a href="https://www.youtube.com/t/contact_us/">ติดต่อเรา</a>
-          <a href="https://www.youtube.com/creators/">ครีเอเตอร์</a> 
-          <a href="https://www.youtube.com/ads/">โฆษณา</a><br>
+          <a href="https://www.youtube.com/creators/">ครีเอเตอร์</a>
+          <a href="https://www.youtube.com/ads/">โฆษณา</a><br />
           <a href="https://developers.google.com/youtube">นักพัฒนาซอฟต์แวร์</a>
         </p>
 
         <p class="about">
           <a href="https://www.youtube.com/t/terms">ข้อกำหนด</a>
-          <a href="https://policies.google.com/privacy?hl=th">ความเป็นส่วนตัว</a> 
-          <a href="https://www.youtube.com/howyoutubeworks/policies/community-guidelines/">นโยบายและความปลอดภัย</a><br>
-          <a href="https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen">วิธีการทำงานของ YouTube</a><br>
+          <a href="https://policies.google.com/privacy?hl=th"
+            >ความเป็นส่วนตัว</a
+          >
+          <a
+            href="https://www.youtube.com/howyoutubeworks/policies/community-guidelines/"
+            >นโยบายและความปลอดภัย</a
+          ><br />
+          <a
+            href="https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+            >วิธีการทำงานของ YouTube</a
+          ><br />
           <a href="https://www.youtube.com/new">ทดลองใช้ฟีเจอร์ใหม่</a>
         </p>
         <p class="about">&#169; 2023 Google LLC</p>
-        <p class="about" href="https://github.com/misterjimza">copying interface by Erum</p>
+        <p class="about">
+          <a href="https://github.com/misterjimza" target="_blank"
+            >copying interface by Erum</a
+          >
+        </p>
       </div>
-    
-    <div class="videos-container"></div>
+    </div>
+
+    <main>
+      <div class="videos-container">
+        <div class="video-preview-container">
+          <div class="tumbnails-container">
+            <img
+              class="thumbnails"
+              src="imgs/vid-preview/thumbnails/omg-nj.webp"
+            />
+            <div class="vid-times">6:34</div>
+          </div>
+          <div class="vid-info-container">
+            <div class="info-channel-pic">
+              <img src="imgs/vid-preview/chanel-profile/hybe-labels.jpg" />
+            </div>
+            <div class="info-content">
+              <div class="vid-name">NewJeans (뉴진스) 'OMG' Official MV</div>
+              <div class="vid-ch-name">HYBE LABELS</div>
+              <div class="vid-views">6.3M views &middot; 18 hours ago</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview-container">
+          <div class="tumbnails-container">
+            <img
+              class="thumbnails"
+              src="imgs/vid-preview/thumbnails/ditto-nj.webp"
+            />
+            <div class="vid-times">3:10</div>
+          </div>
+          <div class="vid-info-container">
+            <div class="info-channel-pic">
+              <img src="imgs/vid-preview/chanel-profile/newjeans.jpg" />
+            </div>
+            <div class="info-content">
+              <div class="vid-name">
+                NewJeans (뉴진스) 'Ditto' Performance Video
+              </div>
+              <div class="vid-ch-name">NewJeans</div>
+              <div class="vid-views">5.2M views &middot; 3 days ago</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview-container">
+          <div class="tumbnails-container">
+            <img
+              class="thumbnails"
+              src="imgs/vid-preview/thumbnails/first-snow.webp"
+            />
+            <div class="vid-times">3:27</div>
+          </div>
+          <div class="vid-info-container">
+            <div class="info-channel-pic">
+              <img src="imgs/vid-preview/chanel-profile/exo.jpg" />
+            </div>
+            <div class="info-content">
+              <div class="vid-name">첫 눈 The First Snow</div>
+              <div class="vid-ch-name">EXO</div>
+              <div class="vid-views">16M views &middot; 3 years ago</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview-container">
+          <div class="tumbnails-container">
+            <img
+              class="thumbnails"
+              src="imgs/vid-preview/thumbnails/subdar7ss2-225.webp"
+            />
+            <div class="vid-times">10:40</div>
+          </div>
+          <div class="vid-info-container">
+            <div class="info-channel-pic">
+              <img src="imgs/left-tabs/channels4_profile.jpg" />
+            </div>
+            <div class="info-content">
+              <div class="vid-name">น้ำตกเหนือ SS2#225</div>
+              <div class="vid-ch-name">Subdar7</div>
+              <div class="vid-views">1.5K views &middot; 12 minutes ago</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview-container">
+          <div class="tumbnails-container">
+            <img
+              class="thumbnails"
+              src="imgs/vid-preview/thumbnails/subdar7ss2-225.webp"
+            />
+            <div class="vid-times">10:40</div>
+          </div>
+          <div class="vid-info-container">
+            <div class="info-channel-pic">
+              <img src="imgs/left-tabs/channels4_profile.jpg" />
+            </div>
+            <div class="info-content">
+              <div class="vid-name">น้ำตกเหนือ SS2#225</div>
+              <div class="vid-ch-name">Subdar7</div>
+              <div class="vid-views">1.5K views &middot; 12 minutes ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
