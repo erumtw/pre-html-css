@@ -1,4 +1,6 @@
 .header-container {
+    background-color: rgb(18, 18, 18);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,8 +12,9 @@
     left: 0;
     right: 0;
     height: 56px;
-
+    z-index: 1000;
     margin: 0 16px;
+
 }
 
 .left-section {
@@ -103,7 +106,6 @@
     align-items: center;
     height: 40px;
     flex: 1
-
 }
 
 .middle-section input {
@@ -124,7 +126,7 @@
 
 .middle-section input::placeholder {
     font-size: 16px;
-    color:gray;
+    color: gray;
 }
 
 .middle-section input:focus {
@@ -133,7 +135,7 @@
     border-color: rgba(96, 150, 249, 0.1);
 }
 
-.middle-section input:focus-visible{
+.middle-section input:focus-visible {
     color: white;
     outline: none;
     border-color: rgba(96, 150, 249, 0.726);
@@ -208,13 +210,14 @@
     width: 24px;
 }
 
-.profile-bt img{
+.profile-bt img {
     width: 32px;
     height: 32px;
     object-fit: cover;
     border-radius: 50%;
 
 }
+
 /* .search-bar input: {
     border: 1px solid rgb(52, 52, 233);
 } */

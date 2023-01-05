@@ -12,6 +12,8 @@
   padding-top: 12px;
   overflow-y: hidden;
   overflow-x: hidden;
+  z-index: 999;
+  background-color: rgb(18, 18, 18);
 
   transition: overflow-y 0.15s;
 }

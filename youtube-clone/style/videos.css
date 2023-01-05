@@ -1,81 +1,97 @@
-.videos-container {
+.vids-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 16px;
-  row-gap: 10px;
-  vertical-align: top;
-  overflow-x: hidden;
-  margin-bottom: 24px;
+  row-gap: 24px;
+  column-gap: 12px;
+  width: 100%;
+  /* overflow: hidden; */
 }
 
-.video-preview-container {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  min-width: 180px;
+@media (max-width: 750px) {
+  /* styles to apply when the viewport is 25% or narrower */
+  .vids-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-.tumbnails-container {
-  display: flex;
-  flex: 1;
+@media (min-width: 751px) and (max-width: 1000px) {
+  /* styles to apply when the viewport is between 26% and 50% wide */
+  .vids-grid {
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1399px) {
+  /* styles to apply when the viewport is between 51% and 75% wide */
+  .vids-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* styles to apply when the viewport is 76% or wider */
+  .vids-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.vid-container {
+  /* max-width: 360px;  */
+  min-width: 205px;
+}
+
+.thumnails {
   position: relative;
 }
 
-.tumbnails-container img {
-  flex: 1;
-  border-radius: 12px;
-  width: 180px;
-
+.thumnails img{
+  width: 99%;
+  border-radius: 8px;
 }
 
-
-.vid-times {
-  position: absolute;
-  right: 4px;
-  bottom: 4px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 4px 4px;
-  font-size: 14px;
+.thumnails p {
+  font-size: 12px;
+  background-color: rgba(0,0,0, 0.7);
+  padding: 2px 4px;
   border-radius: 4px;
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  
 }
-
 .vid-info-container {
-  display: flex;
-  flex: 1;
+  display: grid;
+  grid-template-columns: 48px 1fr;
 }
 
-.info-channel-pic {
-  width: 50px
-}
-
-.info-channel-pic img {
+.vid-info-container img {
+  width: 36px;
   height: 36px;
+  margin: 12px 12px 0 0;
   border-radius: 50%;
-  margin: 12px 24px 0 0;
 }
 
-.info-content {
+.vid-info {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  margin: 12px 24px 0 0;
-  flex-shrink:0;
+  padding: 12px 24px 0 0;
 }
 
-.vid-name {
-  color: white;
+.title {
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 12px;
-
+  line-height: 22px;
+  margin-bottom: 8px;
+  max-height: 44px;
+  color: #F1F1F1;
+  overflow: hidden;
 }
 
-.vid-ch-name,
-.vid-views {
-  color: gray;
-  font-size: 14px;
+.ch-name,
+.stats {
+  flex: 1;
+  font-size: 12px;
   font-weight: 400;
-  margin-bottom: 3px;
-
+  color: #AAAAAA;
+  margin-bottom: 4px;
 }
