@@ -28,4 +28,14 @@ p {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+a:focus {
+  outline: none;
+}
+
 
