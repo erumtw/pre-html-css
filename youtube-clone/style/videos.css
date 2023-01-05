@@ -40,8 +40,10 @@
   min-width: 205px;
 }
 
+
 .thumnails {
   position: relative;
+  cursor: pointer;
 }
 
 .thumnails img{
@@ -57,6 +59,7 @@
   position: absolute;
   bottom: 6px;
   right: 6px;
+  cursor: pointer;
   
 }
 .vid-info-container {
@@ -69,6 +72,7 @@
   height: 36px;
   margin: 12px 12px 0 0;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .vid-info {
@@ -85,6 +89,7 @@
   max-height: 44px;
   color: #F1F1F1;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .ch-name,
@@ -94,4 +99,5 @@
   font-weight: 400;
   color: #AAAAAA;
   margin-bottom: 4px;
+  cursor: pointer;
 }
